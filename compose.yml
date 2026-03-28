@@ -1,0 +1,7 @@
+services:
+  flipoff:
+    pull_policy: build
+    build:
+      context: .
+      dockerfile: .docker/webserver/Dockerfile
+
